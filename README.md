@@ -10,9 +10,7 @@ An educational reel created for the Software Project Management course exploring
 
 ## 🎬 Watch the Reel
 
-👉 **[Click here to watch on YouTube](https://youtu.be/yourlink)**
-
-> *Replace the link above with your actual YouTube link once uploaded.*
+👉 **[Click here to watch on YouTube](https://youtu.be/JfUlHZO3how)**
 
 ---
 
@@ -32,7 +30,7 @@ agile-burnout-reel/
 │   ├── scene5b_save_point.png
 │   └── scene6_victory.png
 │
-├── 📂 Clips/           → Animated video clips per scene (Nano Banana + Veo 3.1)
+├── 📂 Clips/           → Animated video clips per scene (Nano Banana + Flow + Veo 3.1)
 │   ├── clip1_hook.mp4
 │   ├── clip2_meet_the_team.mp4
 │   ├── clip3a_bowser_velocity.mp4
@@ -43,13 +41,19 @@ agile-burnout-reel/
 │   ├── clip5b_save_point.mp4
 │   └── clip6_victory.mp4
 │
-├── 📂 Voiceovers/      → Scene voiceover audio files (CapCut)
+├── 📂 Voiceovers/      → Scene voiceover audio files (ElevenLabs + CapCut)
 │   ├── vo_scene1_hook.mp3
 │   ├── vo_scene2_team.mp3
 │   ├── vo_scene3_wrong.mp3
 │   ├── vo_scene4_gameover.mp3
 │   ├── vo_scene5_fix.mp3
 │   └── vo_scene6_conclusion.mp3
+│
+├── 📂 Transcript/      → Final voiceover script used in the reel
+│   └── transcript.txt
+│
+├── 📂 Thumbnail/       → YouTube thumbnail image
+│   └── thumbnail.png
 │
 └── README.md           → 🎬 Final reel hosted on YouTube (link above)
 ```
@@ -72,22 +76,25 @@ This reel explores one of the most overlooked problems in Agile development — 
 ## 🧠 Script
 
 ### Scene 1 — Hook (0–10s)
-> *"Agile promises your team a sustainable pace. But what happens when every sprint feels like a final boss — with no save point?"*
+> *"Agile promises your team a sustainable pace. But what happens when every sprint feels like a final boss."*
 
-### Scene 2 — Meet the Team (10–25s)
-> *"Meet the Agile team. Each member has skills, energy, and a health bar. Sprint One begins — they plan, they build, they deliver. Health bars take a small hit but recover. That's sustainable Agile. That's how it's supposed to work."*
+### Scene 2 — Meet the Team (10–20s)
+> *"Meet the Agile team completing Sprint 1."*
 
-### Scene 3 — Where It Goes Wrong (25–50s)
-> *"But then velocity becomes a score instead of a planning tool. Bowser wants it higher every single sprint. New requirements keep dropping mid-game. Yoshi stops protecting the team. Retrospectives turn into sessions where some hide, some blame, and nothing actually changes. The team never recovers between sprints."*
+### Scene 3 — Sprint 2 (20–30s)
+> *"Then comes Sprint 2 where Bowser demands more features and pace."*
 
-### Scene 4 — Game Over (50–62s)
-> *"Sprint Six. The team has nothing left. Code quality drops. Deadlines are missed. And then — game over."*
+### Scene 4 — Where It Goes Wrong (30–50s)
+> *"But then velocity becomes a score instead of a planning tool. Bowser wants it higher every single sprint. Yoshi stops protecting the team. Retrospectives turn into sessions where some hide, some blame, and nothing actually changes. The team never recovers between sprints."*
 
-### Scene 5 — The Fix (62–78s)
-> *"But burnout isn't inevitable. Protect sprint commitments — no mid-sprint quests. Make retrospectives actual save points where things genuinely improve. Let Yoshi shield the team from Bowser. And treat velocity as a planning tool — not a high score to beat."*
+### Scene 5 — Game Over (50–62s)
+> *"Then Game Over!! The team has nothing left. Code quality drops. Deadlines are missed."*
 
-### Scene 6 — Conclusion (78–90s)
-> *"The best sprint isn't the fastest one. It's the one your team can repeat — without losing all their HP."*
+### Scene 6 — The Fix (62–78s)
+> *"But burnout isn't inevitable. Protect sprint commitments — no mid-sprint quests. Let Yoshi shield the team from Bowser. And treat velocity as a planning tool — not a high score to beat. Make retrospectives actual save points where things genuinely improve."*
+
+### Scene 7 — Conclusion (78–90s)
+> *"Yipeeeee Victory. The best sprint isn't the fastest one. It's the one your team can repeat."*
 
 ---
 
@@ -119,20 +126,21 @@ Each scene was prompted individually using cinematic Mario movie art style promp
 
 ### Step 3 — Video/Clip Generation
 **Primary Tool:** [Nano Banana](https://nanobanana.ai)
-**Secondary Tool:** Google Veo 3.1
+**Secondary Tools:** Flow, Google Veo 3.1
 
-- Each generated image was fed into Nano Banana to produce animated video clips
+- Each generated image was fed into Nano Banana and Flow to produce animated video clips
 - Veo 3.1 used for scenes requiring more complex motion
 - Each clip generated at 0–15 seconds per scene
 - Original audio removed from all clips before editing
 
 ### Step 4 — Voiceover
-**Tool:** CapCut
-**Voice:** Mickey Mouse style — warm, conversational, friendly tone
-**Process:**
-- Script fed into CapCut text-to-speech scene by scene
-- Each scene generated as a separate audio file for precise timing control
-- Pauses added manually between clips during editing
+**Primary Tool:** [ElevenLabs](https://elevenlabs.io)
+**Secondary Tool:** CapCut
+
+- Script broken down scene by scene and fed into ElevenLabs
+- Natural pauses added between scenes for timing control
+- CapCut used for remaining voiceover segments
+- Each scene exported as a separate audio file for precise syncing
 
 ### Step 5 — Editing & Final Assembly
 **Tool:** [Clipchamp](https://clipchamp.com)
@@ -141,13 +149,10 @@ Each scene was prompted individually using cinematic Mario movie art style promp
 1. All clips imported and original audio muted
 2. Clips arranged in scene order on timeline
 3. Voiceover tracks placed underneath and synced manually to clips
-4. 8-bit background music added at 20–25% volume
+4. Background music — **Soaring** (YouTube Audio Library) added at 10–15% volume
 5. Transitions added between scenes:
-   - Scene 1→2: Soft fade to white
-   - Scene 2→3: Quick cut
-   - Scene 3→4: Fade to black
-   - Scene 4→5: Dip to white (hope/fresh start)
-   - Scene 5→6: Bright flash to white
+   - Fade through White
+   - Fade through Black
 6. Final reel exported as MP4
 
 ---
@@ -186,8 +191,10 @@ Each scene was prompted individually using cinematic Mario movie art style promp
 | Claude (Anthropic) | Script writing | [claude.ai](https://claude.ai) |
 | Nano Banana | Image generation + clip creation | [nanobanana.ai](https://nanobanana.ai) |
 | Google Gemini | Supporting image generation | [gemini.google.com](https://gemini.google.com) |
+| Flow | Video clip generation | [labs.google/flow](https://labs.google/flow/about) |
 | Google Veo 3.1 | Advanced clip generation | [labs.google](https://labs.google) |
-| CapCut | Voiceover generation | [capcut.com](https://capcut.com) |
+| ElevenLabs | Primary voiceover generation | [elevenlabs.io](https://elevenlabs.io) |
+| CapCut | Supporting voiceover generation | [capcut.com](https://capcut.com) |
 | Clipchamp | Final editing and assembly | [clipchamp.com](https://clipchamp.com) |
 
 ---
